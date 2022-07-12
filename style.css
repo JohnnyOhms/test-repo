@@ -24,18 +24,3 @@ html {
 body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
-p{
-    font-size: 1.6rem;
-    line-height: 1.5;
-}
-
-img {
-    width: 100px;
-}
-
-.container {
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 0 20px;
-}
