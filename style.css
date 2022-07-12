@@ -21,6 +21,17 @@ html {
     font-size: 10px;
 }
 
-body{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+nav{
+    background-color: #444a46;
 }
+
+.fa-github{
+    color: var(--white);
+    font-size: 28px;
+}
+
+::placeholder{
+    color: var(--white);
+}
+
+
