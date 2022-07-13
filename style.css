@@ -21,6 +21,10 @@ html {
     font-size: 10px;
 }
 
+body{
+    font-size: 13px;
+}
+
 nav{
     background-color: #444a46;
 }
@@ -37,5 +41,32 @@ nav{
 #section-select{
     background-color: var(--white);
 }
+
+/* Radio checked */
+input[type=radio]{
+    display: none;
+}
+
+.content {
+    display: none;
+}
+
+#first-select:checked ~ .content-overview{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(25rem,1fr));
+    row-gap: 2rem;
+    column-gap: 0.5rem;
+}
+
+#second-select:checked ~ .content-repo {
+    display: block;
+}
+
+label{
+    cursor: pointer;
+}
+
+/* end */
+
 
 
