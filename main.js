@@ -1,4 +1,4 @@
-import {add} from "./js/function.js"
-import {num} from "./js/varr.js"
+import * as v from "./js/varr.js"
+import * as f from "./js/function.js"
 
-console.log(num.num1);
+console.log(v.num1);

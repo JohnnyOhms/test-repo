@@ -24,8 +24,9 @@
                 </div>
                 <div class="col input-group input-group-lg ">
                     <input type="text" name="" id="user-serach" class="form-control bg-dark text-light" placeholder="Search Username">
+                    <button class="btn btn-secondary px-3 mx-3">Search</button>
                 </div>
-            </div>  
+            </div>
         </div>
     </nav>
 
@@ -42,12 +43,12 @@
                                 <h3 class="">JohnnyOhms</h3>
                             </div>
                             <div class="bio d-flex justify-content-start mt-3">
-                                <h3 class="">Software engineer. Frontend web development</h3>
+                                <p class="">Software engineer. Frontend web development</p>
                             </div>
 
                             <!-- view profile btn-->
                             <div class="view-profile d-grid">
-                                <a href="#" target="_blank" class="btn btn-outline-secondary p-3 my-3">view Profile</a>
+                                <a href="#" target="_blank" class="btn btn-outline-secondary p-3 my-3" style="font-size:12px;font-weight:600;">Profile</a>
                             </div>
                             <!--  -->
                             <div class="followers d-flex justify-content-start">
@@ -77,16 +78,17 @@
                                 Overview
                                 </label>
                                 <label for="second-select" class="second-radio px-5">
-                                Repositories<span>15</span>
+                                Repositories<span class="border rounded-pill center"> 15</span>
                                 </label>
                             </nav>
                             <section class="content content-overview">
-                                <!-- <div class="alert alert-danger" role="alert">
+
+                                <!-- <div class="alert alert-danger d-grid" role="alert">
                                     <p>Search a Username to Display</p>
                                 </div> -->
+
                                 <!-- Overview repo -->
                                 <div class="border rounded p-3 m-4">
-                                    <i class="fa-regular fa-book"></i>
                                     <span>
                                         <a href="#" target="_blank" rel="noopener noreferrer">
                                             Javascript-QuizApp
@@ -99,7 +101,6 @@
                                     </div>
                                 </div>
                                 <div class="border rounded p-3 m-4">
-                                    <i class="fa-regular fa-book"></i>
                                     <span>
                                         <a href="#" target="_blank" rel="noopener noreferrer">
                                             Javascript-QuizApp
@@ -111,58 +112,20 @@
                                         <i class="fa-regular fa-star"><span>1</span></i>
                                     </div>
                                 </div>
-                                <div class="border rounded p-3 m-4">
-                                    <i class="fa-regular fa-book"></i>
-                                    <span>
-                                        <a href="#" target="_blank" rel="noopener noreferrer">
-                                            Javascript-QuizApp
-                                        </a>
-                                    </span>
-                                    <div class="des pt-2">
-                                        <p>Quiz app, load Shuffled questions from an array of objects.</p>
-                                        <p class="">Javascript</p>
-                                        <i class="fa-regular fa-star"><span>1</span></i>
-                                    </div>
-                                </div>
-                                <div class="border rounded p-3 m-4">
-                                    <i class="fa-regular fa-book"></i>
-                                    <span>
-                                        <a href="#" target="_blank" rel="noopener noreferrer">
-                                            Javascript-QuizApp
-                                        </a>
-                                    </span>
-                                    <div class="des pt-2">
-                                        <p>Quiz app, load Shuffled questions from an array of objects.</p>
-                                        <p class="">Javascript</p>
-                                        <i class="fa-regular fa-star"><span>1</span></i>
-                                    </div>
-                                </div>
+                              
                             </section>
+                            <div class="content contribution-bd my-5">
+                                <img src="https://ghchart.rshah.org/JohnnyOhms" alt="" class="img-fluid">
+                            </div>
                                 <!--  -->
 
                                 <!-- Repositories -->
                             <section class="content content-repo">
-                                <!-- <div class="alert alert-danger" role="alert">
+
+                                <div class="alert alert-danger" role="alert">
                                     <p>Search a Username to Display</p>
-                                </div> -->
-                                <div class="border-top p-3">
-                                    <div class="d-flex justify-content-between">
-                                        <div>
-                                            <span class="d-flex ">
-                                                <a href="#" target="_blank" rel="noopener noreferrer">
-                                                    Javascript-QuizApp
-                                                </a>
-                                                <p class="public ms-4 border rounded-pill p-1">Public</P>
-                                            </span>
-                                            <p>Quiz app, load Shuffled questions from an array of objects.</p>
-                                            <p class="">Javascript</p>
-                                        </div>
-
-                                        <div class="star">
-                                            <i class="fa-regular fa-star pt-5"> 1</i>
-                                        </div>
-                                    </div>  
                                 </div>
+
                                 <div class="border-top p-3">
                                     <div class="d-flex justify-content-between">
                                         <div>
@@ -177,25 +140,7 @@
                                         </div>
 
                                         <div class="star">
-                                            <i class="fa-regular fa-star pt-5"> 1</i>
-                                        </div>
-                                    </div>  
-                                </div>
-                                <div class="border-top p-3">
-                                    <div class="d-flex justify-content-between">
-                                        <div>
-                                            <span class="d-flex ">
-                                                <a href="#" target="_blank" rel="noopener noreferrer">
-                                                    Javascript-QuizApp
-                                                </a>
-                                                <p class="public ms-4 border rounded-pill p-1">Public</P>
-                                            </span>
-                                            <p>Quiz app, load Shuffled questions from an array of objects.</p>
-                                            <p class="">Javascript</p>
-                                        </div>
-
-                                        <div class="star">
-                                            <i class="fa-regular fa-star pt-5"> 1</i>
+                                            <i class="fa-regular fa-star pt-5">1</i>
                                         </div>
                                     </div>  
                                 </div>
@@ -208,6 +153,6 @@
             
         </div>
     </section>
-    <script type="modulus" src="main.js"></script>
+    <script type="module" src="main.js"></script>
 </body>
 </html>
